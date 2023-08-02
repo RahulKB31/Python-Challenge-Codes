@@ -58,9 +58,35 @@ try:
 except:
     print("Error reading from file")
 
+####################################################################################################
 
+#30
 
+'''
+Write a function that takes as arguments a character and a file
+name. The function should open the file, read its contents and
+return the number of occurrences of the character.
+Test with files containing (i) just one line; (ii) several lines and (iii)
+no lines.
+'''
 
+inFile = open("test.txt",'r')
+outFile = open("outtest.txt",'w')
+lineCount = 0
+blankLineCount = 0
+
+for line in inFile:
+    line2 = line.strip()
+    if len(line2) == 0:
+        blankLineCount += 1
+        print(line2, file=outFile)
+    else:
+        print(lineCount+1, line, file = outFile, end = '')
+        lineCount += 1
+
+inFile.close()
+print("There were", lineCount+blankLineCount, "lines in the file:", blankLineCount, "were blank", file=outFile)
+outFile.close()
 
 
 
