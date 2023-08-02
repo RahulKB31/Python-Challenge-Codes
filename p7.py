@@ -88,6 +88,125 @@ inFile.close()
 print("There were", lineCount+blankLineCount, "lines in the file:", blankLineCount, "were blank", file=outFile)
 outFile.close()
 
+########################################################################################################
+
+#31
+
+'''
+Write a program that:
+- asks the user to enter the name of a file
+- tells the user whether this file exists or not
+If the file does not exist, your program should display on the
+screen the names of files in the current directory (one per line).
+'''
+
+import os
+fileName = input("Enter file name: ")
+if os.path.exists(fileName)
+    print("The file exist")
+else:
+    print("The file does not exist. Files that do exist are")
+    for name in os.listdir(os.getcwd()):
+        print(name)
+
+#######################################################################################################
+
+#32
+
+'''
+Write a program in which the user is presented with options to:
+1 – Create and write to a file
+2 – Show a file on the screen
+3 – Exit
+The program should use a loop in which the user is allowed to select an
+option.
+If option 1 or 2 is chosen, the program should ask the user for the file
+name.
+Option 1 should create a file and allow the user to write as many lines of
+text as the user would like in this file.
+Option 2 should show the content of a file on the screen.
+After processing an option (apart from 3) your program should show the
+menu again.
+The program should give appropriate error messages if files could not be
+opened.
+'''
+
+def getOption():
+    '''
+    present menu and get option choice from user
+    :return: integer in range 1-3
+    '''
+    print("Options are")
+    print("1 create and write to a file")
+    print("2 Read a file")
+    print("3 Exit program")
+    while True:   # keep looping until valid input has been returned
+        try:
+            option = int(input("Select option: "))
+            if 1 <= option <=3:
+                return option
+            else:
+                print("Out of range - try again")
+        except:
+            print("Input an integer - try again")
+
+looping = True
+while looping:
+    opt = getOption()
+    if opt == 3:
+        looping = False
+    else:
+        name = input("Enter file name: ")
+        try:
+            if opt == 1:
+                f = open(name, 'w')
+                while True:
+                    line = input("Supply line of text (use * to finish): ")
+                    if line == '*':
+                        break
+                    print(line, file = f)
+                f.close()
+            else: # option must be 2 since getOption always returns a valid option
+                f = open(name)
+                for line in f:
+                    # if line ends with a new line remove it since print adds a new line
+                    if line[-1] == '\n':
+                        line = line[:-1]
+                    print(line)
+                f.close()
+        except:
+            print("Failed to open", name)
+
+##########################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
