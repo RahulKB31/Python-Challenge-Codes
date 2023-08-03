@@ -146,14 +146,101 @@ except:
 
 ####################################################################################################
 
+#41
 
+'''
+Write a program to create and display a DataFrame from the dictionary
+data and index labels below.
+exam_data = {
+'name': ['Anastasia', 'Dima', 'Katherine', 'James',
+'Emily', 'Michael', 'Matthew', 'Laura',
+'Kevin', 'Jonas'],
+'score': [12.5, 9, 16.5, 0, 9, 20, 14.5, 0, 8, 19],
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes',
+'yes', 'no', 'no', 'yes’] }
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
+'i', 'j']
+'''
 
+import pandas as pd
 
+exam_data = {'name' : ['Anastasia', 'Dima', 'Katherine', 'James','Emily', 'Michael', 'Matthew', 'Laura',
+                       'Kevin', 'Jonas'],
+             'score': [12.5, 9, 16.5, 0, 9, 20, 14.5, 0, 8, 19],
+            'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+            'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes','yes', 'no', 'no', 'yes’] }
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h','i', 'j']
 
+df = pd.DataFrame(exam_data, index = labels)
+print(df)
 
+#####################################################################################################
 
+#42
 
+'''
+Add code to select the 'name' and 'score' columns from the dataframe
+created for exercise 1.
+Add code to output the names of all students with scores in the range 7
+to 17.
+'''
 
+import pandas as pd
+
+exam_data = {'name' : ['Anastasia', 'Dima', 'Katherine', 'James','Emily', 'Michael', 'Matthew', 'Laura',
+                       'Kevin', 'Jonas'],
+             'score': [12.5, 9, 16.5, 0, 9, 20, 14.5, 0, 8, 19],
+            'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+            'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes','yes', 'no', 'no', 'yes’] }
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h','i', 'j']
+
+df = pd.DataFrame(exam_data, index = labels)
+print("Select specific columns:")
+df2 = pd.DataFrame(df, columns = ['name','score'])
+print(df2)
+for i,row in df2.iterrows():
+    if 7 <= row['score'] <= 17:
+        print(row['name'])
+
+######################################################################################################
+
+#43
+
+'''
+There are various ways to calculate the greatest common divisor of 2
+positive integers m and n (i.e. the largest number x that gives a
+remainder of 0 both when we divide m by x and divide n by x).
+One approach is to use the following facts:
+• If m is 1, the GCD is 1
+• If n is 1, the GCD is 1
+• If m and n are equal, the GCD is m (or n)
+• Otherwise the GCD of m and n is equal to the GCD of x and y, where
+x is the smaller of m and n and y is the difference between m and n
+Use the above facts to produce a function to return the GCD of two
+numbers; it should first check for the three special cases and if none are
+satisfied it should calculate x and y, make a recursive call to find the
+GCD of x and y and return the value that was returned by the recursive
+call.
+'''
+
+def gcd(m,n):
+    if m==1 or n==1:
+        return 1
+    elif m==n:
+        return m
+    else:
+        if m > n:
+            x = n
+            y = m - n
+        return gcd(x,y)
+
+print(gcd(15, 45))
+print(gcd(91, 70))
+print(gcd(6, 7))
+print(gcd(6, 6))
+
+###########################################################################################
 
 
 
