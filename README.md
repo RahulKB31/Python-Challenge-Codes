@@ -10,6 +10,8 @@ p15 - Python program for Compund Interest <br />
 p16 - Python Program to check Armstrong Number <br />
 p17 - Python program to find area of a circle <br />
 p18 - Python program to print all Prime numbers in an Interval <br />
-p-19 - Python program to check whether a number is Prime or not <br />
+p19 - Python program to check whether a number is Prime or not <br />
+p20 - Python Program for n-th fibonacci number <br />
+p21 - Python program for n-th multiple of a number in Fibonacci series <br />
 
 
