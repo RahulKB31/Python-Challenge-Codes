@@ -251,11 +251,179 @@ if __name__ == "__main__":
 #138
 
 '''
-
+Python program to print squares of first 'n' natural numbers without using *, / and -
 '''
 
+def printSquares(n):
+    # Initialize square and previous value of x
+    square = 0
+    prev_x = 0
 
+    # calculate and print squares
+    for x in range(0, n):
+        # update value of square using previos values
+        square = (square + x + prev_x)
 
+        # print square and update prev for next iteration
+        print(square, end = " ")
+        prev_x = x
+
+# Driver code
+n = 5
+printSquares(n)
+
+##########################################################################################################
+
+#139
+
+'''
+Split squares of first N natural numbers into two sets with minimum absolute difference of their sums
+'''
+
+def minimumSubsetDifference(N):
+
+    # store the count of block of size 8
+    blockOfSize8 = N // 8
+
+    # Partition of block of 8 elements
+    str = "ABBABAAB"
+
+    # Store the minimum subset difference
+    subsetDifference = 0
+
+    # Partition of N elements to minimize their subset sum difference
+    partition = ""
+
+    while blockOfSize8 != 0:
+        partition = partition + str
+        blockOfSize8 = blockOfSize8 - 1
+
+    # store elements of subset A and B
+    A = []
+    B = []
+
+    for i in range(N):
+
+        # If element is of type A
+        if partition[i] == "A":
+            A.append((i+1) * (i+1))
+
+        # If the elements is of type B
+        else:
+            B.append((i+1) * (i+1))
+
+    # Print the minimum subset difference
+    print(subsetDifference)
+
+    # Print the first subset
+    for i in A:
+        print(i, end = " ")
+    print()
+
+    # Print the second subset
+    for i in B:
+        print(i, end = " ")
+
+# Driver code
+N = 8
+
+# Function call
+minimumSubsetDifference(N)
+
+#####################################################################################################
+
+#140
+
+'''
+Kth elel=ment in permutation of first N natural numbers having all even numbers 
+placed before odd numbers in incresing order 
+'''
+
+# Function to find the k-th element in the required permutation
+def findKthElement(N, K):
+
+    # store the required permutation
+    v = []
+
+    # Insert all the even numbers less than or equal to N
+    for i in range(1, N+1):
+        if (i % 2 == 0):
+            v.append(i)
+
+    # Now insert all odd numbers less than or equal to N
+    for i in range(1, N+1):
+        if (i % 2 != 0):
+            v.append(i)
+
+    # print the kth element
+    print(v[K - 1])
+
+# Driver code
+if __name__ == "__main__":
+    N = 10
+    K = 3
+    findKthElement(N, K)
+
+######################################################################################################
+
+#141
+
+'''
+Python program for cube sum of first n natural numbers
+'''
+
+def sumOfSeries(n):
+    sum = 0
+    for i in range(1, n+1):
+        sum += pow(i,3)
+
+    return sum
+
+# Driver Function
+n = 5
+print(sumOfSeries(n))
+
+#########################################################################################################
+
+#142
+
+'''
+Minimize sum of numbers required to convert an array into a permutation of first n natural numbers
+'''
+
+# Function to find the minimum additions required to convert the array into a permutation of 1 to N
+
+def minimumAdditions(a, n):
+
+    # sort the array in increasing order
+    a = sorted(a)
+    ans = 0
+
+    # Traverse the array
+    for i in range(n):
+
+        # If a[i] > i + 1, then return -1
+        if ((i+1) - a[i] < 0):
+            return -1
+
+        if ((i+1) - a[i] > 0):
+
+            # update answer
+            ans += (i + 1 - a[i])
+
+    # Return the required result
+    return ans
+
+# Driver code
+if __name__ == "__main__":
+
+    # Given input
+    A = [1,1,1,1,1]
+    n = len(A)
+
+    print(minimumAdditions(A, n))
+
+######################################################################################################
 
 
 
