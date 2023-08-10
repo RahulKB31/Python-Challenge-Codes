@@ -20,6 +20,7 @@ p24 - Python program to find sum of array <br />
 p25 - Python program to find largest element in an array <br />
 p26 - Python program for array rotation <br />
 p27 - Python program for Reversal algorithm for array rotation <br />
-p28 - 
+p28 - Python Program to split the array and add the first part to the end <br />
+p29 - 
 
 
