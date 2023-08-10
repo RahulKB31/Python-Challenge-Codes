@@ -21,6 +21,8 @@ p25 - Python program to find largest element in an array <br />
 p26 - Python program for array rotation <br />
 p27 - Python program for Reversal algorithm for array rotation <br />
 p28 - Python Program to split the array and add the first part to the end <br />
-p29 - 
+p29 - Python program for find remainder of array multiplication divided by n <br />
+p30 - Python program to check if given array is Monotonic <br />
+p31 - 
 
 
