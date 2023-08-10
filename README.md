@@ -23,6 +23,7 @@ p27 - Python program for Reversal algorithm for array rotation <br />
 p28 - Python Program to split the array and add the first part to the end <br />
 p29 - Python program for find remainder of array multiplication divided by n <br />
 p30 - Python program to check if given array is Monotonic <br />
-p31 - 
+p31 - Python program to interchange first and last elements in a list <br />
+p32 - 
 
 
