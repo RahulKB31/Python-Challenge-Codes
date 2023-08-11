@@ -25,6 +25,8 @@ p29 - Python program for find remainder of array multiplication divided by n <br
 p30 - Python program to check if given array is Monotonic <br />
 p31 - Python program to interchange first and last elements in a list <br />
 p32 - Python program to swap two elements in a list <br />
-p33 - 
+p33 - Python | Ways to find length of list <br />
+p34 - Python | Ways to check if element exists in list <br />
+p35 - 
 
 
