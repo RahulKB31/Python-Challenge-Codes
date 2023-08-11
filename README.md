@@ -27,6 +27,8 @@ p31 - Python program to interchange first and last elements in a list <br />
 p32 - Python program to swap two elements in a list <br />
 p33 - Python | Ways to find length of list <br />
 p34 - Python | Ways to check if element exists in list <br />
-p35 - 
+p35 - Different ways to clear a list in Python <br />
+p36 - Python | Reversing a list <br />
+p37 - 
 
 
