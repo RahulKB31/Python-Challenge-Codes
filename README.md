@@ -34,6 +34,9 @@ p38 - Python | Multiply all numbers in the list <br />
 p39 - Python program to find smallest number in the list <br />
 p40 - Python program to find largest number in a list <br />
 p41 - Python program to find second largest number in a list <br />
-p42 - 
+p42 - Python program to find N largest elements from a list <br />
+p43 - Python program to print even numbers in a list <br />
+p44 - Python program to print odd numbers in a list <br />
+p45 - Python program to print all even numbers in the range <br />
 
 
