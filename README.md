@@ -29,6 +29,7 @@ p33 - Python | Ways to find length of list <br />
 p34 - Python | Ways to check if element exists in list <br />
 p35 - Different ways to clear a list in Python <br />
 p36 - Python | Reversing a list <br />
-p37 - 
+p37 - Python program to find sum of elements in list <br />
+p38 - 
 
 
