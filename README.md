@@ -33,6 +33,7 @@ p37 - Python program to find sum of elements in list <br />
 p38 - Python | Multiply all numbers in the list <br />
 p39 - Python program to find smallest number in the list <br />
 p40 - Python program to find largest number in a list <br />
-p41 - 
+p41 - Python program to find second largest number in a list <br />
+p42 - 
 
 
