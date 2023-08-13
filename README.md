@@ -38,5 +38,10 @@ p42 - Python program to find N largest elements from a list <br />
 p43 - Python program to print even numbers in a list <br />
 p44 - Python program to print odd numbers in a list <br />
 p45 - Python program to print all even numbers in the range <br />
+p46 - Python program to print all odd numbers in the range <br />
+p47 - Python program to print positive numbers in a list <br />
+p48 - Python program to print negative numbers in a list <br />
+p49 - Python program to print all positive numbers in a range <br />
+p50 - Python program to print all negative numbers in a range <br />
 
 
