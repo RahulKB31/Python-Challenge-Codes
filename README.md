@@ -43,5 +43,14 @@ p47 - Python program to print positive numbers in a list <br />
 p48 - Python program to print negative numbers in a list <br />
 p49 - Python program to print all positive numbers in a range <br />
 p50 - Python program to print all negative numbers in a range <br />
-
+p51 - Remove multiple elements from a list in python <br />
+p52 - Python - Remove empty list from list <br />
+p53 - Python | Cloning or copying a list <br />
+p54 - Python | Count ocuurances of an element in a list <br />
+p55 - Python | Remove empty tuples from a list <br />
+p56 - Python | Program to print duplicates from a list of integers <br />
+p57 - Python program to find cumulative sum of a list <br />
+p58 - Python | Sum of number digits in list <br />
+p59 - Break a list into chunks of size N in python <br />
+p60 - Python | Sort the values of first list using second list <br />
 
