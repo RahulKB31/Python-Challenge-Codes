@@ -163,8 +163,39 @@ print(remove_empty_tuples(0,tuples,[]))
 Using itertools.filterflase()
 '''
 
+import itertools
 
+def Remove(tuples):
+    #remove empty tuples using filterfalse from itertools
+    tuples = list(itertools.filterfalse(lambda x: x == (), tuples))
+    return tuples
 
+tuples = [(), ('ram','15','8'),(), ('laxman','sita'),('krishna','akbar','45'),('',''),()]
+print(Remove(tuples))
+
+#############################################################################################################
+
+#435
+
+'''
+Using reduce
+'''
+
+from functools import reduce
+
+#defining lambda function to remove empty tuples
+remove_empty = lambda lst, val: lst + [val] if val!= () else lst
+
+tuples = [(), ('ram','15','8'),(), ('laxman','sita'),('krishna','akbar','45'),('',''),()]
+
+#using reduce to remove empty tuples
+result = reduce(remove_empty, tuples, [])
+
+#printing final result
+print("The original list is:", +str(tuples))
+print("The list after removing empty tuples: " + str(result))
+
+################################################################################################################
 
 
 
