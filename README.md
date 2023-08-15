@@ -2,6 +2,8 @@
 
 In this repository each each file contains python programs with multiple approaches to a problem.
 
+## Basic Programs
+
 p11 - Python programming to add two numbers <br />
 p12 - Maximum of two numbers in python <br />
 p13 - Python program to find factorial of a number <br />
@@ -16,6 +18,9 @@ p20 - Python Program for how to check if a given number is Fibonacci number <br 
 p21 - Python program for n-th multiple of a number in Fibonacci series <br />
 p22 - Python Program to print ASCII Value of a Character <br />
 p23 - Python program for Sum of squares of first n natural numbers <br />
+
+## Array Programs
+
 p24 - Python program to find sum of array <br />
 p25 - Python program to find largest element in an array <br />
 p26 - Python program for array rotation <br />
@@ -23,6 +28,9 @@ p27 - Python program for Reversal algorithm for array rotation <br />
 p28 - Python Program to split the array and add the first part to the end <br />
 p29 - Python program for find remainder of array multiplication divided by n <br />
 p30 - Python program to check if given array is Monotonic <br />
+
+## List Programs 
+
 p31 - Python program to interchange first and last elements in a list <br />
 p32 - Python program to swap two elements in a list <br />
 p33 - Python | Ways to find length of list <br />
