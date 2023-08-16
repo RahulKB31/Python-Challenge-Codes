@@ -73,3 +73,12 @@ p66 - Python | Matrix creation of n*n <br />
 p67 - Python | Get Kth Column of Matrix <br />
 p68 - Python - Vertical Concatination in Matrix <br />
 
+## String Programs
+
+p69 - Python program to check if a string is palindrome or not <b />
+p70 - Python program to check whether the string is Symmetrical or Palindrome <br />
+p71 - Reverse words in a given string in Python <br />
+p72 - Ways to remove 'i'th character from string in Python <br />
+p73 - Python | Check if a substring is present in a given string <br />
+
+
