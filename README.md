@@ -80,5 +80,9 @@ p70 - Python program to check whether the string is Symmetrical or Palindrome <b
 p71 - Reverse words in a given string in Python <br />
 p72 - Ways to remove 'i'th character from string in Python <br />
 p73 - Python | Check if a substring is present in a given string <br />
-
+p74 - Python-Words Frequency in String Shorthands <br />
+p75 - Python-COnvert Snake case to Pascal case <br />
+p76 - Find length of a string in python (4ways) <br />
+p77 - Python program to print even length words in a string <br />
+p78 - Python program to accept the strings which contains all vowels <br />
 
