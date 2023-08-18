@@ -85,4 +85,8 @@ p75 - Python-COnvert Snake case to Pascal case <br />
 p76 - Find length of a string in python (4ways) <br />
 p77 - Python program to print even length words in a string <br />
 p78 - Python program to accept the strings which contains all vowels <br />
-
+p79 - Python | Count the number of matching characters in a pair of string <br />
+p80 - Remove all duplicates from a given string in python <br />
+p81 - Python-Least frequent character in string <br />
+p82 - Python maximum frequency character in string <br />
+p83 - Python | Program to cheack if a string contains any special character <br />
