@@ -90,3 +90,19 @@ p80 - Remove all duplicates from a given string in python <br />
 p81 - Python-Least frequent character in string <br />
 p82 - Python maximum frequency character in string <br />
 p83 - Python | Program to cheack if a string contains any special character <br />
+p84 - Generating random strings until a given string is generated <br />
+p85 - Find words which are greater than given length k <br />
+p86 - Python program for removing i-th character from a string <br />
+p87 - Python program to split and join a string <br />
+p88 - Python | Check if a given string is binary string or not <br />
+p89 - Python program to find uncommon words from two Strings <br />
+p90 - Python – Replace duplicate Occurrence in String <br />
+p91 - Python – Replace multiple words with K <br />
+p92 - Python | Permutation of a given string using inbuilt function <br />
+p93 - Python | Check for URL in a String <br />
+p94 - Execute a String of Code in Python <br />
+p95 - String slicing in Python to rotate a string <br />
+p96 - String slicing in Python to check if a string can become empty by recursive deletion <br />
+p97 - Python Counter| Find all duplicate characters in string <br />
+p98 - Python – Replace all occurrences of a substring in a string <br />
+
