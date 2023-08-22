@@ -106,3 +106,17 @@ p96 - String slicing in Python to check if a string can become empty by recursiv
 p97 - Python Counter| Find all duplicate characters in string <br />
 p98 - Python – Replace all occurrences of a substring in a string <br />
 
+## Dictionary Programs
+
+p99 - Python – Extract Unique values dictionary values <br />
+p100 - Python program to find the sum of all items in a dictionary <br />
+p101 - Python | Ways to remove a key from dictionary <br />
+p102 - Ways to sort list of dictionaries by values in Python – Using itemgetter <br />
+p103 - Ways to sort list of dictionaries by values in Python – Using lambda function <br />
+p104 - Python | Merging two Dictionaries <br />
+p105 - Python – Convert key-values list to flat dictionary <br />
+p106 - Python – Insertion at the beginning in OrderedDict <br />
+p107 - Python | Check order of character in string using OrderedDict( ) <br />
+p108 - Dictionary and counter in Python to find winner of election <br />
+p109 - Python – Append Dictionary Keys and Values ( In order ) in dictionary <br />
+p110 - Python | Sort Python Dictionaries by Key or Value <br />
