@@ -120,3 +120,12 @@ p107 - Python | Check order of character in string using OrderedDict( ) <br />
 p108 - Dictionary and counter in Python to find winner of election <br />
 p109 - Python – Append Dictionary Keys and Values ( In order ) in dictionary <br />
 p110 - Python | Sort Python Dictionaries by Key or Value <br />
+p111 - Python – Sort Dictionary key and values List <br />
+p112 - Handling missing keys in Python dictionaries <br />
+p113 - Python dictionary with keys having multiple inputs <br />
+p114 - Print anagrams together in Python using List and Dictionary <br />
+p115 - K’th Non-repeating Character in Python using List Comprehension and OrderedDict <br />
+p116 - Check if binary representations of two numbers are anagram <br />
+p117 - Python Counter to find the size of largest subset of anagram words <br />
+p118 - Python | Remove all duplicates words from a given sentence <br />
+p119 - Python Dictionary to find mirror characters in a string <br />
