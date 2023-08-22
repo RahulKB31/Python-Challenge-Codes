@@ -78,7 +78,7 @@ Using the remodule and f string
 import re
 
 def remove(string, i):
-    pattern = f"(^.{{{i}}}})(.)"
+    pattern = f"(^.{{{i}}})(.)"
     return re.sub(pattern, r"\1", string)
 
 if __name__ == "__main__":
