@@ -129,3 +129,28 @@ p116 - Check if binary representations of two numbers are anagram <br />
 p117 - Python Counter to find the size of largest subset of anagram words <br />
 p118 - Python | Remove all duplicates words from a given sentence <br />
 p119 - Python Dictionary to find mirror characters in a string <br />
+p120 - Counting the frequencies in a list using dictionary in Python <br />
+p121 - Python | Convert a list of Tuples into Dictionary <br />
+p122 - Python counter and dictionary intersection example (Make a string using deletion and rearrangement) <br />
+p123 - Python dictionary, set and counter to check if frequencies can become same <br />
+p124 - Scraping And Finding Ordered Words In A Dictionary using Python <br />
+p125 - Possible Words using given characters in Python <br />
+p126 - Python – Keys associated with Values in Dictionary <br />
+
+## Tuple Programs
+
+p127 - Python program to Find the size of a Tuple <br />
+p128 - Python – Maximum and Minimum K elements in Tuple <br />
+p129 - Create a list of tuples from given list having number and its cube in each tuple <br />
+p130 - Python – Adding Tuple to List and vice – versa <br />
+p131 - Python – Closest Pair to Kth index element in Tuple <br />
+p132 - Python – Join Tuples if similar initial element <br />
+p133 - Python – Extract digits from Tuple list <br />
+p134 - Python – All pair combinations of 2 tuples <br />
+p135 - Python – Remove Tuples of Length K <br />
+p136 - Sort a list of tuples by second Item <br />
+p137 - Python program to Order Tuples using external List <br />
+p138 - Python – Flatten tuple of List to tuple <br />
+p139 - Python – Convert Nested Tuple to Custom Key Dictionary <br />
+
+
