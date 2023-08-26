@@ -39,7 +39,7 @@ def counting_sort(arr):
     count = Counter(arr)
     output = []
     for c in sorted(count.keys()):
-        output += * count
+        output += count
     return output
 
 arr = "geeksforgeeks"
