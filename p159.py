@@ -17,7 +17,7 @@ def cocktailSort(a):
                 a[i], a[i+1] = a[i+1],a[i]
                 swapped = True
 
-        if (swapped == False)
+        if (swapped == False):
 
             break
 

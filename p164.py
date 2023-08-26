@@ -12,7 +12,7 @@ def stoogesort(arr,l,h):
         t = arr[l]
 
     arr[l] = arr[h]
-    arr[h] = test
+    arr[h] = t
 
     if  h-l+1 >2:
         t = (int)((h-l+1)/3)
