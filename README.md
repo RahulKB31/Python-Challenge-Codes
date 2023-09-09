@@ -153,4 +153,56 @@ p137 - Python program to Order Tuples using external List <br />
 p138 - Python – Flatten tuple of List to tuple <br />
 p139 - Python – Convert Nested Tuple to Custom Key Dictionary <br />
 
+## Searching and Sorting Programs
+
+p140 - Python Program for Binary Search (Recursive and Iterative) <br />
+p141 - Python Program for Linear Search <br />
+p142 - Python Program for Insertion Sort <br />
+p143 - Python Program for Recursive Insertion Sort <br />
+p144 - Python Program for QuickSort <br />
+p145 - Python Program for Iterative Quick Sort <br />
+p146 - Python Program for Selection Sort <br />
+p147 - Python Program for Bubble Sort <br />
+p148 - Python Program for Merge Sort <br />
+p149 - Python Program for Iterative Merge Sort <br />
+p150 - Python Program for Heap Sort <br />
+p151 - Python Program for Counting Sort <br />
+p152 - Python Program for ShellSort <br />
+p153 - Python Program for Topological Sorting <br />
+p154 - Python Program for Radix Sort <br />
+p155 - Python Program for Binary Insertion Sort <br />
+p156 - Python Program for Bitonic Sort <br />
+p157 - Python Program for Comb Sort <br />
+p158 - Python Program for Pigeonhole Sort <br />
+p159 - Python Program for Cocktail Sort <br />
+p160 - Python Program for Gnome Sort <br />
+p161 - Python Program for Odd-Even Sort / Brick Sort <br />
+p162 - Python Program for BogoSort or Permutation Sort <br />
+p163 - Python Program for Cycle Sort <br />
+p164 - Python Program for Stooge Sort <br />
+
+## Pattern Printing Programs
+
+p165 - Python Program to print the pattern ‘G’ <br />
+p166 - Python Program to print an Inverted Star Pattern <br />
+p167 - Python Program to print double sided stair-case pattern <br />
+p168 - Python Program to print with your own font <br />
+
+## Date-Time Programs
+
+p169 - Python program to get Current Time <br />
+p170 - Get Current Date and Time using Python <br />
+p171 - Python | Find yesterday’s, today’s and tomorrow’s date <br />
+p172 - Python program to convert time from 12 hour to 24 hour format <br />
+p173 - Python program to find difference between current time and given time <br />
+p174 - Python Program to Create a Lap Timer <br />
+p175 - Convert date string to timestamp in Python <br />
+p176 - How to convert timestamp string to datetime object in Python? <br />
+p177 - Find number of times every day occurs in a Year <br />
+
+## Python Regex Programs
+
+p178 - Python Program to Check if String Contain Only Defined Characters using Regex <br />
+p179 - Python program to Count Uppercase, Lowercase, special character and numeric values using Regex <br />
+p180 - Python Program to find the most occurring number in a string using Regex <br />
 
