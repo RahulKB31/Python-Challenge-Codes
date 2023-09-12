@@ -16,3 +16,11 @@ result = re.sub('[\W_]+','',ini_string)
 
 #printing final string
 print('final string', result)
+
+#################################################################################################################
+
+#918
+
+'''
+Remove all characters except letters and numbers using isalpha() and isnumeric()
+'''
