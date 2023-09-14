@@ -39,3 +39,42 @@ result = "".join(getVals)
 
 # printing final string
 print("Final string", result)
+
+###################################################################################################################
+
+#919
+
+'''
+Remove all characters except letters using alnum()
+'''
+
+ini_string = "123:,  .@!  "
+
+# printing initial string
+print("Initial string: ", ini_string)
+
+getVals = list([val for val in ini_string if val.isalnum()])
+result = "".join(getVals)
+
+# printing final string
+print("final string", result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
