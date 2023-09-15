@@ -59,6 +59,26 @@ result = "".join(getVals)
 # printing final string
 print("final string", result)
 
+###################################################################################################################
+
+#920
+
+'''
+Remove all characters except letters and numbers usning a filter and in
+'''
+
+ini_string = "123abcjw:,  .@! eiw"
+
+# printing initial string
+print("Initial string: ", ini_string)
+
+k = "1223324543534589asdfghjnbgkndksjfksgjJKSDLJFKLSDJBASDSDAF"
+
+getVals = list(filter(lambda x: x in k, ini_string))
+
+print("Final string", result)
+
+#################################################################################################################
 
 
 
