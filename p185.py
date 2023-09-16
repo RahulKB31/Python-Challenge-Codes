@@ -80,8 +80,71 @@ print("Final string", result)
 
 #################################################################################################################
 
+#921
 
+'''
+Remove all characters except letters and numbers using ord() function
+'''
 
+ini_string = "123abcjw:,  .@! eiw"
+
+print("initial string: ", ini_string)
+s=""
+for i in ini_string:
+    if ord(i) in range(48,58) or ord(i) in range(65,91) or ord(i) in range(97,123):
+        s+=i
+
+print("final string",s)
+
+##################################################################################################################
+
+#922
+
+'''
+Remove all characters except letters and numbers using operator.countOf() method
+'''
+
+import operator as op
+
+# create a string of allowed characters
+allowed_chars = "231829438498asdamnsfbdflkdjfsdlgjriejs"
+
+ini_string = "123abcjw:,  .@! eiw"
+
+print("initial string:", ini_string)
+s=""
+for i in ini_string:
+    if op.countOf(allowed_chars,i) > 0:
+        s += i
+
+print("final string",s)
+
+###################################################################################################################
+
+#923
+
+'''
+Remove all characters except letters and numbers using numpy
+'''
+
+import numpy as np
+
+ini_string = "123abcjw:,  .@! eiw"
+
+print("initial string:", ini_string)
+
+# create a char array from input string
+char_array = np.fromiter(ini_string, dtype='U1',count=len(ini_string))
+
+# extract alphanumeric characters
+alphanumeric_chars = char_array[np.char.isalnum(char_array)]
+
+# join alphanumeric characters into a string
+result = ''.join(alphanumeric_chars)
+
+print("final string", result)
+
+##################################################################################################################
 
 
 
