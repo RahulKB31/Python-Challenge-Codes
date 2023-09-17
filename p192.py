@@ -83,7 +83,24 @@ check("ankitrai326.com")
 
 ###################################################################################################################
 
+#936
 
+'''
+Validate Emails from a Text file using Python
+'''
+
+import re
+a = open("a.text","r")
+b = a.read()
+c = b.split("\n")
+for d in c:
+    obj = re.search(r'[\w.]+\@[\w.]+',d)
+    if obj:
+        print("Valid Email")
+    else:
+        print("Invalid Email")
+
+###################################################################################################################
 
 
 
