@@ -39,3 +39,21 @@ f1.close()
 f2.close()
 
 #######################################################################################################################
+
+#970
+
+# Append the content of one text file to another using the shutil module
+
+import shutil
+
+
+def append_files_method2(file1_path, file2_path):
+    with open(file1_path,'r') as file1:
+        with open(file2_path,'a') as file2:
+            shutil.copyfileobj(file1,file2)
+
+file1_path = 'file1.txt'
+file2_path = 'file2.txt'
+append_files_method2(file1_path,file2_path)
+
+#####################################################################################################################
