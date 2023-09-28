@@ -57,3 +57,21 @@ file2_path = 'file2.txt'
 append_files_method2(file1_path,file2_path)
 
 #####################################################################################################################
+
+#971
+
+# Append the content of one text file to another using the fileinput Module
+
+import fileinput
+
+def append_files_method3(file1_path, file2_path):
+    with open(file2_path,'a') as file2:
+        with fileinput.input(files=file1_path) as file1:
+            for line in file1:
+                file2.write(line)
+
+file1_path = 'file1.txt'
+file2_path = 'file2.txt'
+append_files_method3(file1_path, file2_path)
+
+######################################################################################################################
