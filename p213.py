@@ -62,7 +62,7 @@ class Node:
         self.data = data
         self.next = None
 
-Class LinkedList:
+class LinkedList:
     # Function to initialize head
     def __init__(self):
         self.head = None
@@ -92,7 +92,7 @@ Class LinkedList:
     # Function to insert a new mode at the beginning
     def push(self, new_data):
         new_mode = Node(new_data)
-        new_node.next = self.head
+        new_mode.next = self.head
         self.head = new_mode
 
     # Utility function to print the LinkedList
